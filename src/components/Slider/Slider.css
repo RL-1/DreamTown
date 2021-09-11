@@ -6,6 +6,9 @@
 .swiper-slide{
     font-size: 18px;
 }
+.swiper-pagination-bullet {
+    background-color:#1a1919;
+}
 .swiper-slide img {
     display: block;
     width: 100%;

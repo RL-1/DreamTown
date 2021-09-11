@@ -19,3 +19,6 @@ export interface CardProps{
     date:string,
     title:string,
 }
+export interface NewsItemProps{
+    block:any[];
+}
