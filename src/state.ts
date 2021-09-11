@@ -12,6 +12,15 @@ import imgNews6 from './components/News/Svg/img6.jpg'
 import imgNews7 from './components/News/Svg/img7.jpg'
 import imgNews8 from './components/News/Svg/img8.jpg'
 import imgNews9 from './components/News/Svg/img9.png'
+import imgStock1 from './components/Stock/Svg/img1.jpg';
+import imgStock2 from './components/Stock/Svg/img2.jpg';
+import imgStock3 from './components/Stock/Svg/img3.jpg'
+import imgStock4 from './components/Stock/Svg/img4.jpg'
+import imgStock5 from './components/Stock/Svg/img5.jpg'
+import imgStock6 from './components/Stock/Svg/img6.jpg'
+import imgStock7 from './components/Stock/Svg/img7.png'
+import imgStock8 from './components/Stock/Svg/img8.jpg'
+import imgStock9 from './components/Stock/Svg/img9.jpg'
 
 let state = {
     NavbarElement:{
@@ -206,6 +215,58 @@ let state = {
                 img:imgNews9,
                 date:'09 сентября 2021',
                 title:'DREAM БОКС'
+            }
+        ]
+    },
+    StockCard:{
+        FirstCard:[
+            {
+                img:imgStock1,
+                date:'09 сентября 2021 - 29 сентября 2021',
+                title:'-25% на total denim look от GAP'
+            },
+            {
+                img:imgStock2,
+                date:'01 сентября 2021 - 30 сентября 2021',
+                title:'до -50% на белье и купальники в Anabel Arto'
+            },
+            {
+                img:imgStock3,
+                date:'06 сентября 2021 - 29 сентября 2021',
+                title:'20% на все товары в интернет-магазине в M&S'
+            }
+        ],
+        MidleCard:[
+            {
+                img:imgStock4,
+                date:'07 сентября 2021 - 20 сентября 2021',
+                title:"Скидка 50% на каждые вторые джинсы в O'STIN'"
+            },
+            {
+                img:imgStock5,
+                date:'01 сентября 2021 - 13 сентября 2021',
+                title:'Скидки на украшения до - 45% в SOVA'
+            },{
+                img:imgStock6,
+                date:'01 сентября 2021 - 30 сентября 2021',
+                title:'осенний ценопад в BROCARD'
+            }
+        ],
+        LastCard:[
+            {
+                img:imgStock7,
+                date:'01 сентября 2021',
+                title:'Total Sale -80% в Natali Bolgar'
+            },
+            {
+                img:imgStock8,
+                date:'31 августа 2021 - 26 сентября 2021',
+                title:'Акциям "Цепная реакция" от AURUM'
+            },
+            {
+                img:imgStock9,
+                date:'31 августа 2021 - 06 сентября 2021',
+                title:"Скидка 50% на школьную коллекцию в O'STIN"
             }
         ]
     }

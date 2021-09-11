@@ -9,12 +9,14 @@ import {
 } from "react-router-dom";
 import { Slider } from './components/Slider/Slider';
 import { News } from './components/News/News';
+import { Stock } from './components/Stock/Stock';
 
 ReactDOM.render(
   <Router>
     <Navbar />
     <Slider />
     <News/>
+    <Stock/>
   </Router>,
   document.getElementById('root')
 );
