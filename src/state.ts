@@ -144,7 +144,7 @@ let state = {
         {
             title:'МАСТЕР-КЛАССЫ СЕНТЯБРЯ',
             more:'Узнать больше',
-            img:img2,
+            img:img3,
             color:'#7d55c8'
         }
     ]
