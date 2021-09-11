@@ -5,7 +5,6 @@
 }
 .swiper-slide{
     font-size: 18px;
-    background-color: #ffcd00;
 }
 .swiper-slide img {
     display: block;
@@ -50,12 +49,14 @@
       color:black;
       height: 1px;
   }
-  .left-button{
+  .left_button{
       background-color: #E1E1E1;;
       border:1px solid #212121;
-      color:black !important;
       padding: 8px 22px;
       width: 170px;
+  }
+  .left_button_text{
+      color:black !important;
   }
   .left_box{
       width: 400px;

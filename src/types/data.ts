@@ -14,3 +14,8 @@ export interface SliderLeftProps{
 export interface SliderRightProps{
     img:any
 }
+export interface CardProps{
+    img:any,
+    date:string,
+    title:string,
+}

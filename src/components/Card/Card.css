@@ -1,0 +1,57 @@
+.card_box{
+    display: block;
+    width: 370px;
+    height: 645px;
+    margin:15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(114, 114, 114, 0.5);
+}
+.swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%black'%2F%3E%3C%2Fsvg%3E") !important;
+  }
+  
+  .swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%black'%2F%3E%3C%2Fsvg%3E") !important;
+  }
+.card_img_block{
+    width: 100%;
+    height: 60%;
+}
+.card_date{
+    color: black !important;
+    padding:15px 0;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.card_line{
+    border: none;
+    background-color: red;
+    height: 1px;
+    width: 250px;
+    margin:0 auto;
+}
+.card_text_block{
+    width: 314px;
+    margin:0 auto;
+}
+.card_title{
+
+    color: black !important;
+    font-weight: bold;
+    font-size: 22px;
+    padding-top:30px;
+    padding-bottom: 45px;
+}
+.card_button{
+    color: black !important;
+    border: 1px solid black;
+    padding: 8px 16px;
+    width: 200px;
+    margin:0 auto;
+}
+.card_button:hover{
+    background-color: rgb(175, 175, 175);
+}

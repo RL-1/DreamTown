@@ -1,0 +1,26 @@
+.news{
+    width: 1650px;
+    margin:0 auto;
+    margin-top:150px;
+}
+.news_box{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.news_title{
+    color: black !important;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+    margin-bottom: 40px;;
+}
+.swiper_slide{
+    background-color: #fff;
+}
+.card_swiper{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    grid-gap:15px;
+}

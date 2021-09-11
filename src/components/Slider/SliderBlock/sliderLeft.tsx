@@ -11,8 +11,8 @@ const SliderLeft: React.FC<SliderLeftProps> = (props) => {
                             {props.title}
                         <div className='left_line' />
                     </div>
-                    <div className="left-button">
-                        <Link to='/'>
+                    <div className="left_button">
+                        <Link to='/' className = 'left_button_text'>
                             {props.more}
                         </Link>
                     </div>

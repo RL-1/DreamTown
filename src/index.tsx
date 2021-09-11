@@ -8,11 +8,13 @@ import {
   Link
 } from "react-router-dom";
 import { Slider } from './components/Slider/Slider';
+import { News } from './components/News/News';
 
 ReactDOM.render(
   <Router>
     <Navbar />
     <Slider />
+    <News/>
   </Router>,
   document.getElementById('root')
 );
