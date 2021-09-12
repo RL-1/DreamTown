@@ -10,6 +10,7 @@ import {
 import { Slider } from './components/Slider/Slider';
 import { News } from './components/News/News';
 import { Stock } from './components/Stock/Stock';
+import { Banner } from './components/Banner/banner';
 
 ReactDOM.render(
   <Router>
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Slider />
     <News/>
     <Stock/>
+    <Banner/>
   </Router>,
   document.getElementById('root')
 );
