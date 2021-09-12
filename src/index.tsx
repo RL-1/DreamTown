@@ -11,6 +11,7 @@ import { Slider } from './components/Slider/Slider';
 import { News } from './components/News/News';
 import { Stock } from './components/Stock/Stock';
 import { Banner } from './components/Banner/banner';
+import { FooterSearch } from './Footer_search/footerSearch';
 
 ReactDOM.render(
   <Router>
@@ -19,6 +20,7 @@ ReactDOM.render(
     <News/>
     <Stock/>
     <Banner/>
+    <FooterSearch/>
   </Router>,
   document.getElementById('root')
 );
