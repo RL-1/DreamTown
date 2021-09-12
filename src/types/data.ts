@@ -22,3 +22,9 @@ export interface CardProps{
 export interface NewsItemProps{
     block:any[];
 }
+export interface FooterItemProps{
+    text:string
+}
+export interface FooterAdressItemProps{
+    text:string
+}

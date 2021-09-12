@@ -11,7 +11,8 @@ import { Slider } from './components/Slider/Slider';
 import { News } from './components/News/News';
 import { Stock } from './components/Stock/Stock';
 import { Banner } from './components/Banner/banner';
-import { FooterSearch } from './Footer_search/footerSearch';
+import { FooterSearch } from './components/Footer_search/footerSearch';
+import { Footer } from './components/Footer/Footer';
 
 ReactDOM.render(
   <Router>
@@ -21,6 +22,7 @@ ReactDOM.render(
     <Stock/>
     <Banner/>
     <FooterSearch/>
+    <Footer/>
   </Router>,
   document.getElementById('root')
 );
