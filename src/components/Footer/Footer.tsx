@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                         Рамен Любенко 11В
                     </div>
                     <a href = 'https://dreamtown.ua/ua/' className="footer_official_site">
-                        dreamtown.ua/ru
+                        Official Site
                     </a>
                 </div>
             </div>

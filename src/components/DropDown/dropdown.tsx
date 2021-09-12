@@ -17,6 +17,7 @@ const Dropdown:React.FC<DropdownProps> = (props) => {
                         <li key = {index}>
                             <Link className = {items.cName} to = {items.path} onClick = {()=> setClick(false)}>
                                 {items.title}
+
                             </Link>
                         </li>
                     )

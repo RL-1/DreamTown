@@ -58,9 +58,8 @@
     padding: 0.5rem 1rem;
   }
   
-  .nav-links:hover {
-    background-color: #1888ff;
-    border-radius: 4px;
+  .nav-item:hover {
+    background-color: #1c1c1c;
     transition: all 0.2s ease-out;
   }
   
@@ -76,8 +75,4 @@
     display: none;
   }
   
-  .nav-links:hover {
-    background-color: #1888ff;
-    border-radius: 0;
-  }
   
